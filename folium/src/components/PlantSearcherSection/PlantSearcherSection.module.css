@@ -1,0 +1,105 @@
+.PlantSearcherSection {
+  background-color: #bcd496;
+  width: 100%;
+  height: 420px;
+
+  background-image: url("../../../public/images/plant-searcher_bg.png");
+  background-size: cover; /* Asegura que la imagen cubra todo el header */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+.PlantSearcherSection__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.PlantSearcherSection__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 750px;
+  color: white;
+  margin-top: 63px;
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.PlantSearcherSection__subtitle {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4;
+  max-width: 690px;
+  text-align: center;
+  color: #458f2e;
+}
+
+.PlantSearcherSection__button {
+  margin-top: 35px;
+  background-color: #71ab13;
+  color: white;
+  padding: 25px 40px;
+  border-radius: 9999px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  line-height: 1;
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 480px) {
+  .PlantSearcherSection {
+    height: 115px;
+  }
+
+  .PlantSearcherSection__title {
+    max-width: 207px;
+    margin-top: 17px;
+    font-size: 12px;
+  }
+
+  .PlantSearcherSection__subtitle {
+    margin-top: 5px;
+    font-size: 5px;
+    max-width: 188px;
+  }
+
+  .PlantSearcherSection__button {
+    margin-top: 11px;
+    padding: 7px 11px;
+    font-size: 5px;
+  }
+}
+
+@media (max-width: 393px) {
+  .PlantSearcherSection {
+    height: 115px;
+  }
+
+  .PlantSearcherSection__title {
+    max-width: 207px;
+    margin-top: 17px;
+    font-size: 12px;
+  }
+
+  .PlantSearcherSection__subtitle {
+    margin-top: 5px;
+    font-size: 5px;
+    max-width: 188px;
+  }
+
+  .PlantSearcherSection__button {
+    margin-top: 11px;
+    padding: 7px 11px;
+    font-size: 5px;
+  }
+}

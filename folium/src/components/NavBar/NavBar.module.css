@@ -1,0 +1,177 @@
+.nav {
+  font-family: var(--font-inter);
+  display: flex;
+  width: 100%;
+  height: 80px;
+  align-items: center;
+  justify-content: space-between;
+
+  max-width: 2000px;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+
+.nav__logo {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.Nav__Logo_image {
+  width: 30px;
+  height: 38px;
+}
+
+.Nav__Logo_text {
+  font-family: var(--font-jost);
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.Nav__elements_container {
+  display: flex;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.Nav__elements_list {
+  list-style: none;
+  display: flex;
+  gap: 38px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Nav__elements_plant_searcher {
+  margin-left: 58px;
+  background-color: #458f2e;
+  color: white;
+  padding: 15px 40px;
+  border-radius: 9999px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  line-height: normal;
+  height: auto;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.Nav__elements_plant_searcher:hover {
+  background-color: #3b6e3a;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.Nav__hamburger_menu {
+  display: none;
+}
+
+/* Media queries for Tablet */
+@media (max-width: 800px) {
+  .Nav__elements_container {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+  }
+
+  .Nav__elements_list {
+    display: none;
+  }
+
+  .Nav__elements_plant_searcher {
+    margin-left: 58px;
+    padding: 5px 40px;
+    height: 35px;
+    font-size: 18px;
+  }
+
+  .Nav__hamburger_menu {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 22px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  .Nav__hamburger_menu_span {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: #264015;
+    border-radius: 2px;
+  }
+}
+
+@media (max-width: 581px) {
+  .nav {
+    height: 40px;
+    padding: 0 20px;
+  }
+
+  .Nav__Logo_image {
+    width: 20px;
+    height: 25px;
+  }
+
+  .Nav__Logo_text {
+    font-size: 14px;
+  }
+
+  .Nav__elements_plant_searcher {
+    margin-left: 58px;
+    font-size: 8px;
+    padding: 5px 20px;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav {
+    height: 40px;
+    padding: 0 20px;
+  }
+
+  .Nav__Logo_image {
+    width: 20px;
+    height: 25px;
+  }
+
+  .Nav__Logo_text {
+    font-size: 14px;
+  }
+
+  .Nav__elements_plant_searcher {
+    margin-left: 58px;
+    font-size: 8px;
+    padding: 5px 20px;
+    height: auto;
+  }
+}
+
+@media (max-width: 393px) {
+  .nav {
+    height: 40px;
+    padding: 0 20px;
+  }
+
+  .Nav__Logo_image {
+    width: 20px;
+    height: 25px;
+  }
+
+  .Nav__Logo_text {
+    font-size: 14px;
+  }
+
+  .Nav__elements_plant_searcher {
+    margin-left: 58px;
+    font-size: 8px;
+    padding: 5px 20px;
+    height: auto;
+  }
+}

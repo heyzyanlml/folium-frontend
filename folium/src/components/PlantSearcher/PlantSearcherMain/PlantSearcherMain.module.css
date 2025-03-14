@@ -1,0 +1,85 @@
+.PlantSearcherMain {
+  width: 100%;
+  min-height: 1260px;
+  background-color: #bcd496;
+  padding: 50px 45px 80px;
+}
+
+.PlantSearcherMain__container {
+  width: 100%;
+  height: 95%;
+  min-height: 1200px;
+  background-color: #f4fbf3;
+  margin: 0 auto;
+  border-radius: 30px;
+  padding: 53px 59px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: auto;
+  grid-gap: 29px;
+  justify-content: start;
+}
+
+.PlantCard__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px; /* Espacio entre las tarjetas */
+  justify-content: start;
+}
+
+@media (max-width: 828px) {
+  .PlantSearcherMain {
+    min-height: 330px;
+    padding: 12px 13px 17px;
+  }
+
+  .PlantSearcherMain__container {
+    min-height: 300px;
+    padding: 15px 14px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 15px;
+  }
+
+  .PlantCard__container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px; /* Espacio entre las tarjetas */
+  }
+}
+
+@media (max-width: 768px) {
+  .PlantSearcherMain {
+    min-height: 330px;
+    padding: 12px 13px 17px;
+  }
+
+  .PlantSearcherMain__container {
+    min-height: 300px;
+    padding: 15px 14px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 15px;
+  }
+
+  .PlantCard__container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px; /* Espacio entre las tarjetas */
+  }
+}
+
+@media (max-width: 393px) {
+  .PlantSearcherMain {
+    min-height: 330px;
+    padding: 12px 13px 17px;
+  }
+
+  .PlantSearcherMain__container {
+    min-height: 300px;
+    padding: 15px 14px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+    grid-gap: 15px;
+  }
+
+  .PlantCard__container {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
+    gap: 15px; /* Espacio entre las tarjetas */
+  }
+}

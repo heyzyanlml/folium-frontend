@@ -1,0 +1,137 @@
+.Hamburger_menu {
+  position: relative;
+}
+
+.Hamburger_menu_button {
+  display: none;
+}
+
+/* Fondo oscuro con opacidad */
+.Hamburger_menu_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro con 50% de opacidad */
+  z-index: 999;
+}
+
+.Hamburger_menu_opened {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #bcd496;
+  border: 1px solid #71ab13;
+  padding: 20px;
+  z-index: 1000;
+  height: 100vh;
+  width: 80%;
+  max-width: 300px;
+  box-sizing: border-box;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.Hamburger_menu_opened.open {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transform: translateX(0);
+}
+
+/* Botón de cierre */
+.Hamburger_menu_close_button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: transparent;
+  border: none;
+  font-size: 40px;
+  cursor: pointer;
+  color: white;
+}
+
+.Hamburger_menu_list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 50px;
+}
+
+.Hamburger_menu_list li {
+  margin: 30px 0;
+}
+
+.Hamburger_menu_list li a {
+  text-decoration: none;
+  color: #30422d;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+/* Media queries for Tablet */
+@media (max-width: 800px) {
+  .Hamburger_menu_button {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 22px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  .Hamburger_menu_span {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: #264015;
+    border-radius: 2px;
+  }
+
+  .Hamburger_menu_opened {
+    display: none;
+  }
+}
+
+/* Media queries for Mobile */
+@media (max-width: 560px) {
+}
+
+/* Media queries for Tablet */
+@media (max-width: 800px) {
+  .Hamburger_menu_button {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 22px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  .Hamburger_menu_span {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: #264015;
+    border-radius: 2px;
+  }
+}
+
+/* Media queries for Mobile */
+@media (max-width: 560px) {
+  .Hamburger_menu_opened {
+    width: 100%;
+    right: 0;
+  }
+}

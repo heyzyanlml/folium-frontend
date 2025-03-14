@@ -1,0 +1,75 @@
+/* Plant Info Card */
+
+.PlantInfoCard {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  max-height: 300px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: -1px 5px 4px 2px rgba(0, 0, 1, 0.1);
+  padding: 8px 8px 2px 8px;
+  margin: 0 auto;
+}
+
+.PlantInfoCard_name {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.PlantInfoCard_Info_Details {
+  display: flex;
+  margin-top: 9px;
+  margin-right: 5px;
+  font-size: 10px;
+  justify-content: space-between;
+}
+
+.PlantInfoCard__watering_wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.PlantInfoCard__wateringFreq_wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.PlantInfoCard__lighting_wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.PlantInfoCard__button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #71ab13;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 9999px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  line-height: 1;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+@media (max-width: 393px) {
+  .PlantInfoCard {
+    max-width: 82px;
+    max-height: 85px;
+    padding: 2px 2px 2px 6px;
+  }
+
+  .PlantInfoCard_name {
+    font-size: 6px;
+  }
+
+  .PlantInfoCard__button {
+    margin-top: 3px;
+    margin-bottom: 7px;
+    padding: 5px 2px;
+    font-size: 42px;
+  }
+}
