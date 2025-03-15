@@ -18,8 +18,8 @@ const poppins = Poppins({
 
 // -------- Importing Images -----------
 import Image from "next/image";
-import plantsImages from "/images/Header__plants_images";
-import cellphoneMockup from "/images/cellphoneMockup";
+import plantsImages from "/images/Header_plants_images.png";
+import cellphoneMockup from "/images/header_cellphone_mockup.png";
 
 export default function HeaderHome() {
   return (
