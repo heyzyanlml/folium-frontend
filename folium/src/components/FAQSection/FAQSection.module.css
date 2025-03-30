@@ -65,7 +65,6 @@
   bottom: 0px;
   z-index: 2;
   margin-left: 60px;
-  margin-bottom: 35px;
   width: 500px;
 }
 
@@ -124,7 +123,7 @@
 
 @media (max-width: 480px) {
   .faq {
-    height: 163px;
+    height: 228px;
   }
 
   .faq__content {
@@ -132,26 +131,26 @@
   }
 
   .faq__title {
-    margin-top: 15px;
-    font-size: 31px;
+    margin-top: 10px;
+    font-size: 50px;
   }
 
   .faq__subtitle {
     margin-top: 4px;
-    font-size: 10px;
-    max-width: 221px;
+    font-size: 16px;
+    max-width: 300px;
   }
 
   .faq__description {
-    margin-top: 10px;
-    font-size: 8px;
-    max-width: 219px;
+    margin-top: 6px;
+    font-size: 13px;
+    max-width: 300px;
   }
 
   .faq__button {
-    margin-top: 5px;
-    padding: 5px 10px;
-    font-size: 6px;
+    margin-top: 10px;
+    padding: 6px 15px;
+    font-size: 12px;
   }
 
   .faq__image {
@@ -167,15 +166,9 @@
   }
 }
 
-@media (max-width: 431px) {
-  .faq__image {
-    left: 15px;
-  }
-}
-
-@media (max-width: 393px) {
+@media (max-width: 430px) {
   .faq {
-    height: 163px;
+    height: 206px;
   }
 
   .faq__content {
@@ -183,26 +176,26 @@
   }
 
   .faq__title {
-    margin-top: 15px;
-    font-size: 31px;
+    margin-top: 12px;
+    font-size: 30px;
   }
 
   .faq__subtitle {
     margin-top: 4px;
-    font-size: 10px;
+    font-size: 13px;
     max-width: 221px;
   }
 
   .faq__description {
     margin-top: 10px;
-    font-size: 8px;
+    font-size: 10px;
     max-width: 219px;
   }
 
   .faq__button {
-    margin-top: 5px;
-    padding: 5px 10px;
-    font-size: 6px;
+    margin-top: 14px;
+    padding: 6px 16px;
+    font-size: 10px;
   }
 
   .faq__image {
@@ -210,6 +203,7 @@
     height: 146px;
     bottom: 0px;
     margin: 0;
+    left: 0;
   }
 
   .faq__rectangle {

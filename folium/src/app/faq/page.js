@@ -1,16 +1,15 @@
+import styles from "../page.module.css";
 import PlantSearcherSection from "../../components/PlantSearcherSection/PlantSearcherSection";
 import HeaderFAQ from "../../components/FAQ/HeaderFAQ/HeaderFAQ";
 import AccordionSection from "../../components/FAQ/AccordionSection/AccordionSection";
 
 export default function Page() {
   return (
-    <div>
+    <div className={styles.page}>
       <HeaderFAQ />
 
-      <main>
-        <AccordionSection />
-        <PlantSearcherSection />
-      </main>
+      <AccordionSection />
+      <PlantSearcherSection />
     </div>
   );
 }

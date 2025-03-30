@@ -2,7 +2,7 @@
   font-family: var(--font-inter);
   display: flex;
   width: 100%;
-  height: 80px;
+  height: 90px;
   align-items: center;
   justify-content: space-between;
 
@@ -13,25 +13,25 @@
 
 .nav__logo {
   display: flex;
-  gap: 10px;
+  gap: 15px;
   cursor: pointer;
 }
 
 .Nav__Logo_image {
-  width: 30px;
-  height: 38px;
+  width: 40px;
+  height: 48px;
 }
 
 .Nav__Logo_text {
   font-family: var(--font-jost);
-  font-size: 25px;
+  font-size: 35px;
   font-weight: 800;
 }
 
 .Nav__elements_container {
   display: flex;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .Nav__elements_list {
@@ -109,22 +109,22 @@
 
 @media (max-width: 581px) {
   .nav {
-    height: 40px;
+    height: 60px;
     padding: 0 20px;
   }
 
   .Nav__Logo_image {
-    width: 20px;
-    height: 25px;
+    width: 30px;
+    height: 35px;
   }
 
   .Nav__Logo_text {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .Nav__elements_plant_searcher {
     margin-left: 58px;
-    font-size: 8px;
+    font-size: 11px;
     padding: 5px 20px;
     height: auto;
   }
@@ -132,46 +132,50 @@
 
 @media (max-width: 480px) {
   .nav {
-    height: 40px;
+    height: 60px;
     padding: 0 20px;
   }
 
   .Nav__Logo_image {
-    width: 20px;
-    height: 25px;
+    width: 35px;
+    height: 40px;
   }
 
   .Nav__Logo_text {
-    font-size: 14px;
+    font-size: 25px;
   }
 
   .Nav__elements_plant_searcher {
     margin-left: 58px;
-    font-size: 8px;
-    padding: 5px 20px;
+    font-size: 16px;
+    padding: 8px 30px;
     height: auto;
+  }
+
+  .Nav__elements_container {
+    gap: 16px;
   }
 }
 
-@media (max-width: 393px) {
+@media (max-width: 430px) {
   .nav {
-    height: 40px;
+    height: 70px;
     padding: 0 20px;
   }
 
   .Nav__Logo_image {
-    width: 20px;
-    height: 25px;
+    width: 30px;
+    height: 35px;
   }
 
   .Nav__Logo_text {
-    font-size: 14px;
+    font-size: 25px;
   }
 
   .Nav__elements_plant_searcher {
     margin-left: 58px;
-    font-size: 8px;
-    padding: 5px 20px;
+    font-size: 14px;
+    padding: 6px 25px;
     height: auto;
   }
 }

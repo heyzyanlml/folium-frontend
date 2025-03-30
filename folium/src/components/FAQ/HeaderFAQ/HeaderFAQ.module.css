@@ -41,8 +41,8 @@
 
 .HeaderFAQ__description {
   margin: 45px auto auto;
-  max-width: 595px;
-  font-size: 20px;
+  max-width: 800px;
+  font-size: 25px;
   line-height: 1.3;
 }
 
@@ -112,25 +112,25 @@
 
 @media (max-width: 480px) {
   .HeaderFAQ {
-    height: 300px;
-    max-width: 393px;
+    height: 180px;
+    max-width: 480px;
     padding-top: 15px;
   }
 
   .HeaderFAQ__wrapper {
-    max-width: 236px;
+    max-width: 370px;
   }
 
   .HeaderFAQ__title {
-    font-size: 17px;
-    max-width: 236px;
-    padding: 10px 4px;
+    font-size: 20px;
+    max-width: 300px;
+    padding: 7px 4px;
   }
 
   .HeaderFAQ__description {
     margin: 10px auto auto;
-    max-width: 236px;
-    font-size: 10px;
+    max-width: 280px;
+    font-size: 11px;
   }
 
   .HeaderFAQ__description_span {
@@ -138,21 +138,21 @@
   }
 }
 
-@media (max-width: 393px) {
+@media (max-width: 430px) {
   .HeaderFAQ {
-    height: 300px;
-    max-width: 393px;
+    height: 180px;
+    max-width: 430px;
     padding-top: 15px;
   }
 
   .HeaderFAQ__wrapper {
-    max-width: 236px;
+    max-width: 280px;
   }
 
   .HeaderFAQ__title {
     font-size: 17px;
-    max-width: 236px;
-    padding: 10px 4px;
+    max-width: 250px;
+    padding: 7px 4px;
   }
 
   .HeaderFAQ__description {

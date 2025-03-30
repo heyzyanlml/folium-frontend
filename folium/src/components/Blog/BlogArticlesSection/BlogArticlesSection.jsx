@@ -86,7 +86,10 @@ export default function BlogArticlesSection() {
             </div>
           </div>
 
-          <a className={`${poppins.className} ${styles.Blog_Articles__seeAll}`}>
+          <a
+            onClick={handleReadMoreClick}
+            className={`${poppins.className} ${styles.Blog_Articles__seeAll}`}
+          >
             Ver todos →
           </a>
 

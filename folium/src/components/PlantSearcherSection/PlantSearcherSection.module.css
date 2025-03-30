@@ -20,10 +20,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 750px;
+  max-width: 800px;
   color: white;
   margin-top: 63px;
-  font-size: 45px;
+  font-size: 55px;
   font-weight: 800;
   line-height: 1.2;
   text-align: center;
@@ -31,10 +31,10 @@
 
 .PlantSearcherSection__subtitle {
   margin-top: 20px;
-  font-size: 18px;
+  font-size: 23px;
   font-weight: 400;
   line-height: 1.4;
-  max-width: 690px;
+  max-width: 900px;
   text-align: center;
   color: #458f2e;
 }
@@ -43,13 +43,13 @@
   margin-top: 35px;
   background-color: #71ab13;
   color: white;
-  padding: 25px 40px;
+  padding: 20px 40px;
   border-radius: 9999px;
   text-decoration: none;
   display: inline-block;
   text-align: center;
   line-height: 1;
-  font-size: 18px;
+  font-size: 23px;
   font-weight: 500;
   position: relative;
   z-index: 2;
@@ -58,48 +58,50 @@
 
 @media (max-width: 480px) {
   .PlantSearcherSection {
-    height: 115px;
+    height: 170px;
+    padding-top: 10px;
   }
 
   .PlantSearcherSection__title {
-    max-width: 207px;
+    max-width: 280px;
     margin-top: 17px;
-    font-size: 12px;
+    font-size: 20px;
   }
 
   .PlantSearcherSection__subtitle {
     margin-top: 5px;
-    font-size: 5px;
-    max-width: 188px;
+    font-size: 9.5px;
+    max-width: 330px;
   }
 
   .PlantSearcherSection__button {
-    margin-top: 11px;
-    padding: 7px 11px;
-    font-size: 5px;
+    margin-top: 12px;
+    padding: 5px 11px;
+    font-size: 10px;
   }
 }
 
-@media (max-width: 393px) {
+@media (max-width: 430px) {
   .PlantSearcherSection {
-    height: 115px;
+    height: 170px;
+    padding-top: 10px;
   }
 
   .PlantSearcherSection__title {
-    max-width: 207px;
+    max-width: 260px;
     margin-top: 17px;
-    font-size: 12px;
+    font-size: 18px;
   }
 
   .PlantSearcherSection__subtitle {
     margin-top: 5px;
-    font-size: 5px;
-    max-width: 188px;
+    font-size: 12px;
+    max-width: 360px;
   }
 
   .PlantSearcherSection__button {
-    margin-top: 11px;
-    padding: 7px 11px;
-    font-size: 5px;
+    margin-top: 10px;
+    padding: 5px 18px;
+    font-size: 11px;
   }
 }

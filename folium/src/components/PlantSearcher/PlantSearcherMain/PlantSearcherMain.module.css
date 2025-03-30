@@ -2,7 +2,7 @@
   width: 100%;
   min-height: 1260px;
   background-color: #bcd496;
-  padding: 50px 45px 80px;
+  padding: 50px 100px 80px;
 }
 
 .PlantSearcherMain__container {
@@ -74,12 +74,12 @@
   .PlantSearcherMain__container {
     min-height: 300px;
     padding: 15px 14px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 15px;
   }
 
   .PlantCard__container {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 15px; /* Espacio entre las tarjetas */
   }
 }

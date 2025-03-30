@@ -23,9 +23,13 @@
   list-style: none;
 }
 
+.AccordionSection__Accordion_title::-webkit-details-marker {
+  display: none; /* Oculta la flecha en navegadores WebKit */
+}
+
 .AccordionSection__Accordion_text {
   color: #30422d;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 1.5;
 }
@@ -38,7 +42,7 @@
 }
 .AccordionSection__Accordion_icon {
   position: absolute;
-  right: 10px;
+  right: 40px;
   width: 58px;
   height: 58px;
 }
@@ -121,7 +125,6 @@
 
   .AccordionSection__Accordion {
     padding: 20px 30px;
-
     margin-bottom: 20px;
   }
 
@@ -169,8 +172,14 @@
 }
 
 @media (max-width: 480px) {
+  .AccordionSection__Accordion {
+    padding: 30px 20px;
+    margin-bottom: 10px;
+  }
+
   .AccordionSection__Accordion_title {
-    font-size: 8px;
+    font-size: 14.5px;
+    max-width: 340px;
   }
 
   .AccordionSection__Accordion_text {
@@ -185,13 +194,13 @@
   }
   .AccordionSection__Accordion_icon {
     position: absolute;
-    right: 10px;
-    width: 16px;
-    height: 16px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
   }
   .AccordionSection__Accordion_number {
     margin-right: 7px;
-    font-size: 16px;
+    font-size: 22px;
   }
 
   .AccordionSection__divider {
@@ -200,13 +209,19 @@
   }
 }
 
-@media (max-width: 393px) {
+@media (max-width: 430px) {
+  .AccordionSection__Accordion {
+    padding: 30px 20px;
+    margin-bottom: 10px;
+  }
+
   .AccordionSection__Accordion_title {
-    font-size: 8px;
+    font-size: 16px;
+    max-width: 300px;
   }
 
   .AccordionSection__Accordion_text {
-    font-size: 5px;
+    font-size: 13px;
   }
 
   .AccordionSection__Accordion_list {
@@ -217,13 +232,13 @@
   }
   .AccordionSection__Accordion_icon {
     position: absolute;
-    right: 10px;
-    width: 16px;
-    height: 16px;
+    right: 20px;
+    width: 35px;
+    height: 35px;
   }
   .AccordionSection__Accordion_number {
     margin-right: 7px;
-    font-size: 16px;
+    font-size: 20 px;
   }
 
   .AccordionSection__divider {

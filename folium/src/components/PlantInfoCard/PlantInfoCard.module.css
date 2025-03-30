@@ -54,22 +54,3 @@
   font-size: 12px;
   font-weight: 500;
 }
-
-@media (max-width: 393px) {
-  .PlantInfoCard {
-    max-width: 82px;
-    max-height: 85px;
-    padding: 2px 2px 2px 6px;
-  }
-
-  .PlantInfoCard_name {
-    font-size: 6px;
-  }
-
-  .PlantInfoCard__button {
-    margin-top: 3px;
-    margin-bottom: 7px;
-    padding: 5px 2px;
-    font-size: 42px;
-  }
-}

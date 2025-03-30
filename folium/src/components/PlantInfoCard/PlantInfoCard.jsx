@@ -11,8 +11,6 @@ const poppins = Poppins({
 // -------- Importing Images -----------
 import Image from "next/image";
 import plantCardImage from "../../../public/images/PlantInfoCard__image.png";
-import wateringIcon from "../../../public/images/watering_icon.png";
-import lightingIcon from "../../../public/images/lighting_icon.png";
 
 export default function PlantInfoCard({ onViewMore, plant }) {
   return (
