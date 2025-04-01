@@ -27,6 +27,8 @@ export const careLevel = {
   easy: "Fácil (requieren poco mantenimiento y son ideales para principiantes)",
   medium:
     "Medio (necesitan un cuidado moderado, como riego regular y condiciones específicas de luz)",
+  moderate:
+    "Medio (necesitan un cuidado moderado, como riego regular y condiciones específicas de luz)",
   high: "Alto (requieren un cuidado más intensivo, como poda frecuente y condiciones específicas de luz y humedad)",
 };
 
