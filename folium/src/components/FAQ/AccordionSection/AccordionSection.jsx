@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import styles from "./AccordionSection.module.css";
-import AccordionOption from "../AccordionOption/AccordionOption";
 import faqData from "../../../constants/faqData";
 
 // -------- Importing Images -----------
